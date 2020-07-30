@@ -1,6 +1,6 @@
 {
   "name": "@wdesign/wt",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "lib/main.js",
   "author": "shihao wang <913003120@qq.com>",
   "license": "MIT",
