@@ -1,7 +1,7 @@
 {
   "name": "@wdesign/wt",
-  "version": "0.1.0",
-  "main": "index.js",
+  "version": "0.2.1",
+  "main": "lib/main.js",
   "author": "shihao wang <913003120@qq.com>",
   "license": "MIT",
   "bin": {
@@ -33,5 +33,10 @@
     "type": "git",
     "url": "https://github.com/wangshihao111/templates.git"
   },
-  "homepage": "https://github.com/wangshihao111/templates.git"
+  "homepage": "https://github.com/wangshihao111/templates.git",
+  "files": [
+    "lib",
+    "bin",
+    "README.md"
+  ]
 }
