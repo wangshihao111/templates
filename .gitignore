@@ -106,3 +106,4 @@ yarn.lock
 package-lock.json
 lib/
 demo/
+_templates/
