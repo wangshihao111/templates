@@ -9,7 +9,9 @@ program
   .command("g <type> [name]")
   .description('generate a koa application template')
   .action(async (type, name, command) => {
-    await update();
+    try {
+      await update();
+    } catch (error) {}
     if (type === 'koa') {
       try {
         await generateKoaApp(name)
