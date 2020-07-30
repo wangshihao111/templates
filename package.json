@@ -1,5 +1,5 @@
 {
-  "name": "w-templates",
+  "name": "@wdesign/wt",
   "version": "1.0.0",
   "main": "index.js",
   "author": "shihao wang <913003120@qq.com>",
@@ -23,9 +23,7 @@
     "mkdirp": "^1.0.4"
   },
   "keywords": [
-    "api interceptor",
-    "api",
-    "api control"
+    "template generator"
   ],
   "publishConfig": {
     "access": "public",
