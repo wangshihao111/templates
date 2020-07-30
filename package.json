@@ -7,6 +7,9 @@
   "bin": {
     "wt": "bin/wt.js"
   },
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "devDependencies": {
     "@types/fs-extra": "^9.0.1",
     "@types/mkdirp": "^1.0.1",
