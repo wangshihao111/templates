@@ -3,6 +3,7 @@ import cors from "@koa/cors";
 import { createRootContainer } from "what-di";
 import initRouter from "./routes";
 import DBUtils from "./utils/db.utils";
+import compress from 'koa-compress'
 
 createRootContainer({
   providers: [{ provide: "db", useValue: new DBUtils() }],
@@ -11,6 +12,7 @@ createRootContainer({
 const app = new Koa();
 
 app.use(cors());
+app.use(compress());
 
 initRouter(app);
 
